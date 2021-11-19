@@ -377,7 +377,9 @@
 			
 			function onDocumentKeyDown(e){
 				if(e.keyCode  == 80){
-					console.log("yes");
+					for(var i = 0; i< valueArray.length;++i){
+						console.log(textarray[i]," : ",valueArray[i]);
+					}	
 				}				
 			}
 
